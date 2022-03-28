@@ -2,9 +2,10 @@
 n = int(input())
 scores = list(map(int, input().split()))
 m = max(scores)
+count = 0
 
 for i in range(n):
-  scores[i] = (scores[i] / m) * 100 
+  count += (scores[i] / m) * 100 
   
 
-print(sum(scores)/n)
+print(count/n)
