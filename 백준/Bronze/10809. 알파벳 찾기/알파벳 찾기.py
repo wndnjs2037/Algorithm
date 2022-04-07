@@ -1,10 +1,14 @@
-# 10809 알파벳 찾기 - 구글링
+# 10809 알파벳 찾기 - 다시풀기 (순서 수정)
 
-S = input()
-abc = 'abcdefghijklmnopqrstuvwxyz'
+s = input()
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
-for i in abc : #알파벳을 i에 담아 한 개(char)씩 가져옴
-    if i in S : #i가 S안에 들어있다면,(여기서 i는 abc 안을 돌며 a b c 한 자씩 가져오는 이터레이터)
-        print(S.index(i), end=' ') # S의 i번째 인덱스를 출력해줌
-    else:
-        print(-1, end=' ') #아니라면 -1 삽입
+for i in alphabet:  #알파벳 문자열을 하나씩 가져와서 i에 담아 비교
+  if i in s: #입력받은 문자열에 알파벳이포함되어 있으면 
+    #print("i :", i)
+    #print("j : ",j)
+    print(s.index(i), end=' ') #s에 해당 알파벳 i가 포함되어 있는 위치(s의 인덱스)를 출력
+
+  else:
+    print(-1, end=' ') # 그 외에는 -1을 출력
+      
