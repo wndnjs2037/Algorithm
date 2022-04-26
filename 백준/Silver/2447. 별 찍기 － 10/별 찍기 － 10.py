@@ -24,3 +24,4 @@ def append_star(LEN):
 n = int(sys.stdin.readline().strip()) # 사용자에게 입력값을 받는다
 print('\n'.join(append_star(n))) # \n을 기준으로 값을 join하여 프린트한다
 
+ 
