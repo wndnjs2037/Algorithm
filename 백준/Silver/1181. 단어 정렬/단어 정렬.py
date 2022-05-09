@@ -17,4 +17,4 @@ words.sort() #정리된 단어들을 sort로 정렬
 words.sort(key = len) # 길이가 같으면 처리
 
 for i in words: #정렬된 단어들을 차례대로 출력
-  print(i) 
+  print(i)  
