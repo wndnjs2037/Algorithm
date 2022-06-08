@@ -1,0 +1,5 @@
+-- 가장 최근에 들어온 동물은 언제 들어왔는지 DATETIME 조회하기
+-- 데이터베이스는 이미 등록되어 있음, 조회하는 SQL문만 작성하면 된다.
+
+SELECT MAX(DATETIME)
+FROM ANIMAL_INS
